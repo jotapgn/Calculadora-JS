@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-color: #594F68;
+    
+}
+.container{
+    margin: 150px auto;
+    height: 620px;
+    width: 380px;
+    background-color: #171717;
+    border-radius: 5px;
+    padding: 20px 20px;
+
+}
+.calculator{
+    width: 350px;
+}
+.display{
+    font-size:50px;
+    color: #ffffff;
+    background-color: #171717;
+    border: none;
+    width: 310px;
+    height: 220px;
+    text-align: right;
+}
+.btn{
+    width: 70px;
+    height: 70px;
+    font-size: 45px;
+    color: #ffffff;
+    border: none;
+    background-color: #171717;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #222222;
+}
+.btn-eq{
+    background-color: #FF4747;
+}
+.btn-eq:hover{
+    background-color: #f83535;
+}
